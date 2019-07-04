@@ -1,5 +1,5 @@
 # PSO-Group-Assignament
-Use PSO to assign X students with subjects to X group.
+Use **Particle Swarm Optimization** to assign X students with subjects to X group.
 
 # INTRODUCTION
 We have members of a set that must be assigned to subsets optimizing a certain
@@ -20,3 +20,15 @@ in others there are differences between the number of students assigned to the s
 We want obtain all the possible assignments, which minimizes the imbalance.
 
 ![alt text](https://github.com/b0rv3g4r4/PSO-Group-Assignament/raw/master/images/table1.png)
+
+
+# HOW-TO-USE
+
+```
+make all
+./particulas_secuencial <nIterations> <nParticles> < <fileData>
+./particulas_openmp <nIterations> <nParticles> <nThreads> < <fileData>
+./particulas_mpi <nIterations> <nParticles> <nGenerations> < <fileData>
+./particulas_openmpmpi <nIterations> <nParticles> <nThreads> <nGenerations>  < <fileData>
+
+```
