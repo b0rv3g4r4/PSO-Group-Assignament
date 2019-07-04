@@ -19,4 +19,4 @@ subjects is balanced, with the same number of students in each subgroup (ASO), b
 in others there are differences between the number of students assigned to the subgroups. 
 We want obtain all the possible assignments, which minimizes the imbalance.
 
-
+![alt text](https://github.com/b0rv3g4r4/PSO-Group-Assignament/raw/master/images/table1.png)
